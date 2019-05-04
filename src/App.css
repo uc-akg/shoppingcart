@@ -1,0 +1,23 @@
+.body {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+.itemsBlock {
+  display: flex;
+  padding: 10px 10px 10px 0;
+}
+.itemsBlock > div {
+  margin-right: 10px;
+}
+.cartItems {
+  padding: 10px 0;
+}
+.cartItems span {
+  margin-right: 10px;
+}
